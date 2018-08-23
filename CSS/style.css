@@ -1,0 +1,42 @@
+#a{
+color: red;
+/* tout mettre en majuscules */
+text-transform: uppercase;
+}
+
+ul{
+  /* transformer le style des puces */
+list-style-type: square;
+}
+
+table {
+  /* fusionner les bordures du tableau */
+border-collapse: collapse;
+}
+
+td, th {
+border: 2px solid royalblue;
+/* mettre "solid" pour qualifier les bordures sinon rien n'apparaîtra */
+text-align: center;
+height: 50px;
+width: 200px;
+}
+
+th{
+  background-color: lavender;
+}
+
+#c{
+height: 400px;
+width: 600px;
+background-color: black;
+opacity: 0.4;
+}
+
+body{
+background-image: url("../images/instagram.jpg");
+background-repeat: no-repeat;
+  /* pour déplacer l'image depuis le css */
+background-position-y: 80%;
+background-position-x: 15%;
+}
